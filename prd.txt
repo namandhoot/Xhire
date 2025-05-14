@@ -1,0 +1,136 @@
+📄 Product Requirement Document (PRD)
+🧾 Product Name (Suggestion):
+XHire – Job Hunt, Reimagined via X (Twitter)
+
+1. Overview
+XHire is a web platform that helps users discover real-time job opportunities posted on Twitter (X) using advanced search logic and curated filtering. It bridges the gap between recruiters/startups posting directly on Twitter and job seekers who miss out on these opportunities.
+
+2. Goals
+Simplify job discovery from Twitter
+
+Allow skill-based job filtering
+
+Increase reachability of indie/startup hiring tweets
+
+Save users hours of manual searching
+
+3. Target Audience
+Students & freshers
+
+Developers, designers, marketers, and freelancers
+
+Remote job hunters
+
+Twitter-savvy users looking to get hired
+
+4. Core Features
+✅ Job Feed via Twitter API
+Pull tweets using advanced search queries like:
+
+("hiring" OR "looking for") AND ("developer" OR "designer") lang:en -is:retweet
+Show tweets in chronological order
+
+Highlight job-related keywords
+
+🔍 Advanced Filters
+Job Type: Full-time / Internship / Freelance / Remote
+
+Roles: Frontend, Backend, ML, Product, Marketing, etc.
+
+Date Range: Last 24 hrs / 7 days / 30 days
+
+Verified accounts only (optional toggle)
+
+📑 Tweet Summary
+Use OpenAI/Gemini API to generate short summaries of job tweets
+
+Format: Role, Company, Location, How to Apply, Salary (if any)
+
+🧭 Redirect to Original Tweet
+Every job card has a CTA: 🔗 View on Twitter
+
+📌 Bookmarking
+Allow users to save interesting job tweets to their profile
+
+🔔 Job Alerts
+Weekly or daily email alerts based on user skill/interests
+
+🧠 Skill-based Feed
+User adds their skills in onboarding
+
+Feed auto-adjusts queries to show relevant jobs
+
+🔄 Auto-refreshing Feed
+Optional toggle for real-time updates from the Twitter API
+
+5. Optional Premium Features (Monetizable 💰)
+💼 Pro Mode (Subscription):
+Unlimited job results
+
+Save up to 50 bookmarks
+
+Personalized AI-summarized job insights
+
+Early access to new features
+
+💸 Plans:
+Free Tier: Limited feed + 5 bookmarks
+
+Pro Plan: ₹199/month or ₹1499/year
+
+Team Plan (for Placement Cells / Bootcamps): Custom pricing
+
+6. Tech Stack Recommendation
+Frontend: React + TailwindCSS
+
+Backend: Node.js / Express
+
+DB: Firebase / MongoDB
+
+Twitter API v2 for data
+
+OpenAI / Gemini for summarizing tweets
+
+Hosting: Vercel / Firebase Hosting
+
+Auth: Firebase Auth / Google Login
+
+7. Stretch Goals / V2 Features
+Chrome Extension: Highlight jobs directly on Twitter
+
+Resume Analyzer: Match tweet with user’s resume score
+
+AI-Powered Apply Assistant (autogenerate replies/DMs)
+
+Job Threads detection (for threads with follow-up info)
+
+8. Monetization & Business Strategy
+🧭 3 Clear Options:
+Subscription SaaS
+→ Target individual users (job seekers)
+→ Monthly or yearly plan with premium features
+
+One-Time Lifetime Plan
+→ Good early traction tactic (₹499 for lifetime Pro access)
+
+B2B Acquisition / White-label → Sell to:
+
+Edtechs (like Internshala, Naukri)
+
+College Placement Cells
+
+Bootcamps / Accelerator programs → They can rebrand and use your backend
+
+🔥 Suggestion:
+Start with B2C (individual job hunters), gain traction → then pitch to B2B once you have users & usage metrics.
+
+9. KPIs to Track
+DAU / MAU (Daily/Monthly active users)
+
+Click-through to tweets
+
+of jobs bookmarked
+Subscription conversions
+
+Engagement time on platform
+
